@@ -42,7 +42,7 @@ btn:hover {
 
 /* Header Showcase */
 #showcase {
-    min-height: 450px;
+    min-height: 300px;
     color:#fff;
     text-align: center;   
 }
@@ -54,7 +54,7 @@ btn:hover {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 450px;
+    height: 325px;
     z-index: -1;
     opacity: 0.2;
 }
