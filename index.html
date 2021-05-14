@@ -99,24 +99,27 @@
                 <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US"
                      data-type="horizontal" data-theme="light" data-vanity="jsramirez">
                     <a class="LI-simple-link"
-                       href='https://www.linkedin.com/in/jsramirez?trk=profile-badge'>Visit My LinkedIn Profile</a>
+                       href='https://www.linkedin.com/in/jsramirez?trk=profile-badge'>Visit My LinkedIn</a>
+
+                    <form action="contact-form.php" data-netlify="true" method="post" onsubmit="return validateForm()">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name">
+                        <br>
+                        <label for="e-mail">E-mail:</label>
+                        <input type="text" name="e-mail" id="e-mail">
+                        <br>
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date" value="2019-02-20" min="2018-01-01" max="2025-12-31">
+                        <br>
+                        <label for="comment">Message</label>
+                        <br>
+                        <textarea name="comment" id="comment" cols="20" rows="10"></textarea>
+                        <br>
+                        <button type="submit" name="submit" style="width:100px">Submit</button>
+                    </form>
                 </div>
-                <form action="contact-form.php" data-netlify="true" method="post" onsubmit="return validateForm()">
-                    <label for="name">Name:</label>
-                    <input type="text" name="name" id="name">
-                    <br>
-                    <label for="e-mail">E-mail:</label>
-                    <input type="text" name="e-mail" id="e-mail">
-                    <br>
-                    <label for="date">Date:</label>
-                    <input type="date" id="date" name="date" value="2019-02-20" min="2018-01-01" max="2025-12-31">
-                    <br>
-                    <label for="comment">Message</label>
-                    <br>
-                    <textarea name="comment" id="comment" cols="20" rows="10"></textarea>
-                    <br>
-                    <button type="submit" name="submit" style="width:100px">Submit</button>
-                </form>
+               
+ 
             </div>
         </section>
     </main>
